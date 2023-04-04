@@ -1,0 +1,42 @@
+*{
+    background-color: #202020;
+    color: white; 
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+p {
+    background-color: black;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    background-color: black;
+    color: goldenrod;
+}
+
+h3 {
+    background-color: black;
+    color: goldenrod
+}
+
+h4 {
+    background-color: black;
+    color:  #246c8c;
+}
+
+.experience {
+    background-color: black;
+    max-width: 800px;
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px; 
+
+}

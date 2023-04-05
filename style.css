@@ -8,6 +8,17 @@
     padding: 0;
 }
 
+/* Nav Styles */
+nav{
+    display: box;
+    text-align: right;
+    padding: 5px; 
+    margin: 30px; 
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
 /* Paragraph Styles */ 
 p {
     background-color: black;
@@ -22,6 +33,10 @@ p {
 h1, h2 {
     background-color: #202020k;
     color: #DAA520;
+    display: block; 
+    padding: 5px; 
+    margin: 30px; 
+
 }
 
 h3 {
@@ -43,7 +58,7 @@ h5 {
     background-color: black;
     max-width: 800px;
     padding: 20px; 
-    margin: 20px; 
+    margin: 30px; 
     border-radius: 10px; 
 
 }

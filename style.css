@@ -1,25 +1,32 @@
-*{
+/* All Default Styles */
+* {
     background-color: #202020;
-    color: white; 
+    color: white;
     font-family: sans-serif;
     text-decoration: none;
     box-sizing: border-box;
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
 /* Nav Styles */
-nav{
+nav {
     display: box;
     text-align: right;
-    padding: 5px; 
-    margin: 30px; 
+    padding: 5px;
+    margin: 30px;
     text-decoration: none;
     font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Paragraph Styles */ 
+ul {
+    padding: 0px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+/* Paragraph Styles */
 p {
     background-color: black;
     display: block;
@@ -29,19 +36,20 @@ p {
     margin-inline-end: 0px;
 }
 
-/* Header Styles */ 
-h1, h2 {
-    background-color: #202020k;
+/* Header Text Styles */
+h1,
+h2 {
+    background-color: #202020;
     color: #DAA520;
-    display: block; 
-    padding: 5px; 
-    margin: 30px; 
+    display: block;
+    padding: 5px;
+    margin: 30px;
 
 }
 
 h3 {
     background-color: black;
-    color: #DAA520; 
+    color: #DAA520;
 }
 
 h4 {
@@ -54,21 +62,34 @@ h5 {
     color: #20B2DA;
 }
 
-.experience {
-    background-color: black;
-    max-width: 800px;
-    padding: 20px; 
-    margin: 30px; 
-    border-radius: 10px; 
-
-}
 
 /* Class Styles */
+.bio,
+.experience,
+.projects {
+    background-color: black;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
 .tag {
     background-color: lightblue;
     color: black;
     font-size: 13px;
-    margin: 0 5px 5px 0; 
+    margin: 0 5px 5px 0;
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+.h4-footer {
+    background-color: #202020;
+    text-align: center;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+}
+
+.social-media-icons {
+    text-align: center;
 }

@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-/* Nav Styles */
+/* Element Styles */
 nav {
     display: box;
     text-align: right;
@@ -24,6 +24,8 @@ ul {
     padding: 0px;
     margin: 50px;
     font-size: 20px;
+    text-align: center;
+    list-style-type: none;
 }
 
 /* Paragraph Styles */
@@ -44,6 +46,7 @@ h2 {
     display: block;
     padding: 5px;
     margin: 30px;
+    text-align: center;
 
 }
 
@@ -64,14 +67,23 @@ h5 {
 
 
 /* Class Styles */
+.home {
+    padding: 250px;
+}
+
 .bio,
 .experience,
 .projects {
     background-color: black;
     max-width: 1000px;
+    display: block;
     padding: 20px;
-    margin: 30px;
+    margin: auto;
     border-radius: 10px;
+}
+
+.bio-image {
+
 }
 
 .tag {
@@ -90,6 +102,7 @@ h5 {
     padding: 5px 10px;
 }
 
-.social-media-icons {
+.footer-icons {
     text-align: center;
+    padding: 20px;
 }

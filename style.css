@@ -1,12 +1,15 @@
 /* All Default Styles */
 * {
-    background-color: #202020;
-    color: white;
     font-family: sans-serif;
     text-decoration: none;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #202020;
+    color: white;
 }
 
 /* Element Styles */
@@ -39,9 +42,8 @@ p {
 }
 
 /* Header Text Styles */
-h1,
-h2 {
-    background-color: #202020;
+h1, h2 {
+    background-color:#202020;
     color: #DAA520;
     display: block;
     padding: 5px;
@@ -68,7 +70,7 @@ h5 {
 
 /* Class Styles */
 .home {
-    padding: 250px;
+    text-align: center;
 }
 
 .bio,
@@ -83,6 +85,9 @@ h5 {
 }
 
 .bio-image {
+    display: block;
+    background-color: #202020;
+    text-align: center;
 
 }
 
@@ -90,19 +95,51 @@ h5 {
     background-color: lightblue;
     color: black;
     font-size: 13px;
-    margin: 0 5px 5px 0;
+    margin: 0 auto;
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+.button-quote, .button-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 10px;
 }
 
 .h4-footer {
     background-color: #202020;
     text-align: center;
     margin: 0 5px 5px 0;
-    padding: 5px 10px;
+    margin: 0 5px 5px 0;
 }
 
 .footer-icons {
     text-align: center;
     padding: 20px;
 }
+
+
+.header-footer-links {
+    color: white;
+    padding: 8px;
+}
+
+.header-footer-links:hover {
+    color: #DAA520; 
+}
+
+/* Body: Light Mode */
+.light-mode-body {
+    background-color: navy;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 450px) {
+    nav {
+        font-size: 15px;
+    }
+  }
